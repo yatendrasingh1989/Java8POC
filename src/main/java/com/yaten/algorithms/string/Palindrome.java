@@ -1,11 +1,9 @@
 package com.yaten.algorithms.string;
 
-import org.springframework.util.StringUtils;
-
 public class Palindrome {
 
     public boolean isPalindrome(String str){
-        if(StringUtils.isEmpty(str))
+        if(null==str || str.isEmpty())
         return false;
         String revrsedStr=Reverse.reverseStringUsingStringBuffer(str);
         return str.equals(revrsedStr);

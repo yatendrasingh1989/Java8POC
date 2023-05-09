@@ -1,9 +1,8 @@
-package com.yaten.java8;
+package com.yaten.java8.Arrays;
 
-import com.sun.deploy.util.ArrayUtil;
+
 
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by ysingh12 on 7/14/2017.
