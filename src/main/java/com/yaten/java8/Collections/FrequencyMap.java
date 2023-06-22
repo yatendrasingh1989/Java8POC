@@ -1,9 +1,6 @@
-package com.yaten.java8;
+package com.yaten.java8.Collections;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -15,10 +12,10 @@ public class FrequencyMap {
 	}
 	
 	public static Map<String,Long> calculateFrequency(List<String> words){
-		
-		Map<String, Long> frequencyMap=words.stream().collect(Collectors.groupingBy(Function.identity(),HashMap ::new, Collectors.counting()));
-		return frequencyMap;
-		
+
+		Map<String,Long> frequency= words.stream().collect(Collectors.groupingBy(Function.identity(),HashMap::new,Collectors.counting()));
+
+		return frequency;
 	}
 
 }

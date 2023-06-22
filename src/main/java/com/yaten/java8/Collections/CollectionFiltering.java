@@ -1,4 +1,4 @@
-package com.yaten.java8;
+package com.yaten.java8.Collections;
 
 import java.util.ArrayList;
 import java.util.HashMap;
