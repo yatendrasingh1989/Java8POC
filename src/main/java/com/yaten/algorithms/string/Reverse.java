@@ -14,7 +14,6 @@ public class Reverse {
     }
 
     public static String reverseStringUsingStringBuffer(String str){
-        String reverseStr= new StringBuffer(str).reverse().toString();
-        return reverseStr;
+        return new StringBuffer(str).reverse().toString();
     }
 }

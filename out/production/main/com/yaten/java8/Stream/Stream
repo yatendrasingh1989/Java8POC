@@ -1,0 +1,13 @@
+Stream is an interface in java.util.streams package
+Stream can be applied on list,arrays, sets
+stream() is a method in collections interface
+streamOf() can also be used to open a stream
+There are various methods in stream-
+    -Min
+    -Max
+    -Count
+    -Filter
+    -Map
+    -sorted
+    -collect
+    -forEach

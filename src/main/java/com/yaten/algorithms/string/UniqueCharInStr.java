@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class UniqueCharInStr {
 
     public static void main(String[] args) {
-        String s= "yatendra";
+        String s= "Pizza";
         int index = -1;
         for(char ch : s.toCharArray()) {
             if(s.indexOf(ch) == s.lastIndexOf(ch)) {

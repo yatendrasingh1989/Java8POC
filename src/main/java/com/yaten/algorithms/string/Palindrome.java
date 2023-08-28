@@ -1,7 +1,7 @@
 package com.yaten.algorithms.string;
 
 public class Palindrome {
-
+    //the reverse of the string is the same as the original one
     public boolean isPalindrome(String str){
         if(null==str || str.isEmpty())
         return false;
